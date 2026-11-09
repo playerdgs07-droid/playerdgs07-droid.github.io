@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>El Coco Uploader</title>
+<meta name="description" content="El Coco Uploader: herramienta privada para publicar los vídeos del canal de YouTube «El Coco Te Lo Explica!».">
+<style>
+  :root { --bg:#fffaf2; --fg:#2b2118; --muted:#6b5a4a; --accent:#b5651d; --card:#ffffff; --line:#eadfce; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#1b1612; --fg:#f3ece2; --muted:#bfae9b; --accent:#e39a52; --card:#241d17; --line:#3a2f25; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:48px 16px; }
+  h1 { font-size:2rem; margin:0 0 .25rem; }
+  .sub { color:var(--muted); margin:0 0 2rem; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:20px 24px; margin-bottom:20px; }
+  h2 { font-size:1.15rem; margin:0 0 .5rem; }
+  a { color:var(--accent); }
+  footer { color:var(--muted); font-size:.9rem; margin-top:2rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>🥥 El Coco Uploader</h1>
+  <p class="sub">Herramienta privada del canal de YouTube <strong>«El Coco Te Lo Explica!»</strong></p>
+
+  <section class="card">
+    <h2>¿Qué es?</h2>
+    <p>El Coco Uploader es una aplicación de uso interno que usa la API de datos de YouTube para que el propio
+    titular del canal «El Coco Te Lo Explica!» suba y programe sus vídeos (título, descripción, etiquetas y miniatura)
+    desde su ordenador. No es un servicio público: no hay registro de usuarios ni acceso para terceros.</p>
+  </section>
+
+  <section class="card">
+    <h2>Qué datos usa</h2>
+    <p>Solo pide permiso para subir vídeos y gestionar los vídeos del canal propio. Los datos de acceso se guardan
+    únicamente en el ordenador del titular del canal y no se comparten con nadie.
+    Detalles en la <a href="privacidad.html">política de privacidad</a>.</p>
+  </section>
+
+  <section class="card">
+    <h2>English</h2>
+    <p>El Coco Uploader is a private, single-user tool that lets the owner of the YouTube channel
+    “El Coco Te Lo Explica!” upload and schedule their own videos through the YouTube Data API.
+    It is not offered to the public. See the <a href="privacidad.html">privacy policy</a>.</p>
+  </section>
+
+  <footer>
+    <a href="privacidad.html">Política de privacidad / Privacy policy</a> ·
+    <a href="https://www.youtube.com/channel/UC3kb7guvYWSybE1qKpkDRLw">Canal de YouTube</a>
+  </footer>
+</main>
+</body>
+</html>
